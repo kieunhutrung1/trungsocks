@@ -11,7 +11,7 @@ Một script đơn giản để cài đặt **Shadowsocks-libev** trên máy ch�
 ## 📥 Cài đặt
 
 ```bash
-curl -O https://gitlab.com/mikproxylink/one-click-shadowsocks/-/raw/main/install.sh
+curl -O https://raw.githubusercontent.com/kieunhutrung1/trungsocks/refs/heads/main/install.sh
 chmod +x install.sh
 sudo ./install.sh
 ```
@@ -24,9 +24,9 @@ Khi tạo EC2 instance mới, bạn có thể dán đoạn sau vào ô **User da
 
 ```bash
 #!/bin/bash
-curl -O https://gitlab.com/mikproxylink/one-click-shadowsocks/-/raw/main/install.sh
+curl -O https://raw.githubusercontent.com/kieunhutrung1/trungsocks/refs/heads/main/install.sh
 chmod +x install.sh
-echo -e "1\n2\n8888\nUSER_HERE\nPASS_HERE" | ./install.sh
+echo -e "1\n2\n8888\trung9x\trung123@" | ./install.sh
 ```
 
 - `1` = Cài SOCKS5 (Dante)  
